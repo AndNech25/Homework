@@ -1,0 +1,155 @@
+.images{
+    height: 300px;
+    width: 300px;
+    background: url(/Homework4/images.jpg) center ;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.container1 {
+
+    width: 300px;
+    height: 300px;
+    background-color: rgb(61, 59, 59);
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.container2 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.container3{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+
+
+ul{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    padding-left: 10px;
+    padding: 10px;
+    
+}
+.menu{
+background-color: rgb(41, 39, 39);
+height: 40px;
+line-height: 40px;
+width: 310px;
+}
+.menu-1{
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.menu-1 a:hover{
+    background-color: green;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    .cont{
+        border: 1px solid rgb(41, 39, 39);
+        width: 600px;
+        border-top: 0;
+    }
+    .cont-1{
+        background-color: rgb(41, 39, 39);
+        height: 40px;
+        line-height: 40px;
+        border-style: 3px rgb(41, 39, 39);
+     }
+    .shapka{
+        display: flex;
+        color: white;
+        margin-left: 10px;
+        padding-left: 20px;
+    }
+    .shapka a:hover{
+        background-color: green;
+        display: block;
+        height: 20px;
+        line-height: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .content{
+        text-align: center;
+
+    }
+    .vstavka{
+        color: blue;
+    }
+
+        .nakladka{
+            display: flex;
+            margin-top: 20px;
+        }
+        .position-2{
+            margin-left: 200px;
+        }
+        .position-3{
+            margin-left: 200px;
+        }
+        
+        
+        .kyb-1{ 
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            z-index: 1;
+
+
+        }
+        .kyb-2{ 
+            background-color: rgb(109, 32, 109);
+            height: 100px;
+            width: 100px;
+            position: relative;
+            left: 65px;
+            bottom: 50px;
+            z-index: 3;
+            
+        }
+        .kyb-3{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(5, 66, 5);
+            position: relative;
+            left: 130px;
+            bottom: 100px;
+            z-index: 2;
+            
+        }
+        .red{
+            height: 100px;
+            width: 100px;
+            background-color:red;
+            position: relative;
+            z-index: 4;
+           
+        }
+        .green{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(5, 66, 5);
+            left: 130px;
+            bottom: 100px;
+            position: relative;
+            z-index: 3;
+
+        }
+
