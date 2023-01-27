@@ -1,0 +1,12 @@
+.level-2{
+justify-content: center;
+text-align: center;
+        background-image: url(/Homework5/photo/фон.jpg);
+        background-size:  cover;
+        background-repeat: no-repeat;
+}
+
+.cont-1{
+    justify-content: center;
+}
+
