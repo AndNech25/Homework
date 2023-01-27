@@ -43,3 +43,95 @@ width: 100px;
 height: 100px;
 border: 1px solid rgb(55, 55, 236);
 }
+
+
+
+    .sample{
+        background-image: url(/Homework5/fon.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 600px;
+    }
+
+    .text{
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .position-3{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .square-2{
+        background-color: rgb(79, 79, 148);
+        text-align: center;
+        height: 140px;
+        width: 140px;
+        margin: 10px;
+    
+    }
+   
+    .level-5{
+        border: 1px solid black;
+        height: 800px;
+        width: 1100px;
+        margin: 100px;
+    }
+    .blok-5{
+        border: 1px solid black;
+        width: 1100px;
+        height: 151px;
+        margin: 0px;
+    }
+    .main-cent{
+        justify-content: space-between;
+        display: flex;
+        margin-top: 46px;
+        margin-bottom: 46px;
+    }
+    .blok-1{
+        border: 1px solid black;
+        width: 200px;
+        height: 400px;
+        
+    }
+    .content{
+        border: 1px solid black;
+        width: 400px;
+        height: 400px;
+        
+    }
+
+    .level-6{
+        border: 1PX solid black;
+        height: 400px;
+        width: 400px; 
+        margin: 100px;
+    }
+    .position-6{
+        justify-content: space-around;
+        display: flex;
+        margin: 24px;
+    }
+    .kyt{
+        border: 1px solid black;
+        width: 50px;
+        height: 50px;
+    }
+    .content-6{
+        border: 1px solid black;
+        width: 200px;
+        height: 50px;
+
+    }
+    .lr-6{
+        border: 1px solid black;
+        width: 50px;
+        height: 200px;
+    }
+    .content-cent{
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+    }
