@@ -1,0 +1,113 @@
+.blok-1{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(41, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bord{
+    border: 3px solid white;
+    color: blue;
+    width: 500px;
+    height: 400px;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .blok-1{
+    width: 500px;
+    height: 400px;
+    
+  }  
+  .bord{
+    color: rgb(184, 230, 19);
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
+  }
+} 
+
+
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  position: relative;    
+}
+
+.Level-2{
+  margin-top: 50px;
+}
+.shapka{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+.logo{
+  font-size: 35px;
+}
+.info{
+  display: flex;
+
+  }
+  .info-2{
+    display: none;
+  }
+  .content{
+    background-image: url(/Homework-7/images.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    text-align: center;
+  }
+  .title{
+    padding-top: 25%;
+    color: white;
+  }
+  .content p{
+    color: white;
+    margin: 7%;
+  }
+
+  @media screen and (min-width: 600px) {
+    .svg{
+      display: none;
+    }
+    
+  }
+  @media screen and (max-width: 600px ) {
+    .info{
+      display: none;
+    }
+    .info-2{
+      display: block ;
+      font-size: 30px;
+    text-align: center;
+    background-color: rgb(255 216 189);
+    margin: 0px;
+    }
+   .content{
+    margin: 0px;
+    height: 200px;
+   }
+   .title{
+    display: none;
+  }
+  .content p{
+    padding-top: 30px;
+    color: rgb(29, 28, 28);
+    margin: 0px;
+  }
+  }
+  .transition{
+    margin: 20px;
+  }
+
