@@ -1,0 +1,252 @@
+body {
+  background-color: #E5E5E5;
+  color: #4B321D;
+  width: 1440px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+}
+
+#grop {
+  position: absolute;
+  left: 60px;
+  top: 43px;
+}
+
+#grop-1 {
+  position: absolute;
+  left: 70px;
+  top: 55px;
+}
+
+#grop-2 {
+  position: absolute;
+  left: 150px;
+  top: 61px;
+}
+
+#grop-3 {
+  position: absolute;
+  left: 108px;
+  top: 59px;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  top: 49px;
+  right: 618px;
+  font-size: 18px;
+}
+.menu > a {
+  position: relative;
+  font-family: Poppins;
+  padding-right: 36px;
+  transition: 0.5s;
+}
+
+main {
+  position: absolute;
+  top: 212px;
+}
+
+.cont-1 > h2 {
+  font-size: 80px;
+  padding-left: 60px;
+  line-height: 100px;
+  padding-right: 110px;
+  font-style: normal;
+  width: 1060px;
+  font-weight: 100;
+  word-spacing: 10px;
+  transition: 0.5s;
+  margin-bottom: 0;
+}
+.cont-1 > img {
+  padding: 0 20px;
+  position: absolute;
+  top: 386px;
+  transition: 0.5s;
+}
+
+.cont-2 > h2 {
+  width: 1200px;
+  font-size: 80px;
+  padding-left: 60px;
+  line-height: 100px;
+  padding-right: 110px;
+  font-style: normal;
+  font-weight: 400;
+  word-spacing: 10px;
+  position: relative;
+  top: 1204px;
+  text-align: start;
+}
+.cont-2 > input {
+  position: relative;
+  top: 1250px;
+  font-size: 20px;
+  left: 70px;
+  border: solid 2px #4B321D;
+  color: #4B321D;
+  background-color: #E5E5E5;
+  font-weight: 400;
+  border-radius: 3px;
+  height: 50px;
+  width: 162px;
+  font-family: Poppins;
+  transition: 0.5s;
+}
+.cont-2 > input:hover {
+  color: #a76f41;
+  border: 3px solid #a76f41;
+  background-color: #d8d8d8;
+}
+
+.cont-3 {
+  position: relative;
+  top: 1320px;
+  left: 60px;
+  display: flex;
+  align-items: center;
+}
+.cont-3 > div {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 44px;
+  width: 550px;
+  padding-left: 100px;
+}
+.cont-3 > div > input {
+  position: relative;
+  font-size: 20px;
+  border: solid 2px #4B321D;
+  color: #4B321D;
+  background-color: #E5E5E5;
+  font-weight: 400;
+  height: 50px;
+  width: 150px;
+  border-radius: 3px;
+  font-family: Poppins;
+}
+.cont-3 > div > input:hover {
+  color: #a76f41;
+  border: 3px solid #a76f41;
+  background-color: #d8d8d8;
+}
+
+.cont-4 {
+  display: flex;
+  position: relative;
+  top: 1800px;
+  left: 60px;
+}
+.cont-4 > div > p {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 44px;
+  width: 528px;
+  margin: 0;
+}
+.cont-4 > div > input {
+  position: relative;
+  left: 17px;
+  height: 50px;
+  width: 113px;
+  top: 17px;
+  border: solid 2px #4B321D;
+  color: #4B321D;
+  background-color: #E5E5E5;
+  font-family: Poppins;
+  font-size: 20px;
+}
+.cont-4 > div > input:hover {
+  color: #a76f41;
+  border: 3px solid #a76f41;
+  background-color: #d8d8d8;
+}
+.cont-4 > img {
+  position: relative;
+  top: -400px;
+  left: 160px;
+}
+
+.cont-5 {
+  background-color: #4B321D;
+  color: #F1F1EB;
+  height: 476px;
+  width: 1400px;
+  padding: 0 20px;
+  position: absolute;
+  top: 3908px;
+}
+
+#p1 {
+  font-size: 80px;
+  width: 1181px;
+  padding-left: 60px;
+  margin: 0;
+  padding-top: 84px;
+}
+
+#p2 {
+  font-size: 26px;
+  padding-left: 60px;
+  padding-top: 45px;
+  margin: 0;
+}
+
+.cont-6 {
+  position: relative;
+  top: 2021px;
+  left: 60px;
+}
+.cont-6 > p {
+  font-size: 80px;
+  margin: 0;
+}
+.cont-6 > input {
+  width: 128px;
+  height: 50px;
+  border: solid 2px #4B321D;
+  color: #4B321D;
+  background-color: #E5E5E5;
+  position: relative;
+  top: 46px;
+  font-size: 20px;
+  font-family: Poppins;
+}
+.cont-6 > input:hover {
+  color: #a76f41;
+  border: 3px solid #a76f41;
+  background-color: #d8d8d8;
+}
+
+footer {
+  position: absolute;
+  top: 5000px;
+  display: flex;
+  justify-content: space-around;
+  width: 1440px;
+  font-size: 18px;
+}
+footer > div > svg {
+  position: relative;
+  top: 83px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  color: #a76f41;
+}/*# sourceMappingURL=styles.css.map */
